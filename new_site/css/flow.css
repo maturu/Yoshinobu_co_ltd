@@ -1,0 +1,165 @@
+.flow {
+  background-color: rgba(42, 56, 94, 0.04);
+}
+
+.flow .row {
+  align-items: flex-start;
+  max-width: 85vw;
+}
+
+.flow .row .item .theme {
+  margin-bottom: 70px;
+}
+
+@media screen and (min-width: 1100px){
+  .flow .row .item .title img {
+    width: 25%;
+    margin-bottom: 30px;
+  }
+  .smart-sideway {
+    display: none;
+  }
+  .flow .row .item .theme p {
+    font-size: 2.8rem;
+    color: #2C344B;
+    margin: 0;
+    text-align: left;
+    line-height: 40px;
+    font-family: serif;
+  }
+
+  .flow .row .item .theme h1 {
+    text-align: left;
+    font-size: 3.5rem;
+    letter-spacing: .1rem;
+  }
+
+  .svg {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: sticky;
+    top: 20vh;
+    width: 100%;
+    min-height: 1px;
+  }
+  .state_svg {
+    display: none;
+  }
+
+  .flow .row .item h2 {
+    font-size: 2.5rem;
+    font-family: "游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  }
+
+  .flow .row .item p {
+    font-size: 1.7rem;
+    font-family: "游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+
+  #flow-list {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+  }
+}
+@media screen and (max-width: 499px){
+  .flow .row .item .title img {
+    width: 25%;
+  }
+  .smart-sideway {
+    display: none;
+  }
+  .flow .row .item .theme p {
+    font-size: 1.7rem;
+    color: #2C344B;
+    margin: 0;
+    text-align: left;
+    font-family: serif;
+  }
+
+  .flow .row .item .theme h1 {
+    text-align: left;
+    font-size: 2.5rem;
+    letter-spacing: .1rem;
+    margin-bottom: 10px;
+  }
+
+  .svg {
+    display: none;
+  }
+  .state_svg img{
+    width: 100%;
+    height: auto;
+  }
+
+  .flow .row .item h2 {
+    font-size: 1.8rem;
+    font-family: "游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  }
+
+  .flow .row .item p {
+    font-size: 1.2rem;
+    font-family: "游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+    letter-spacing: 1px;
+  }
+}
+
+.flow .row .item .flow-info p {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1099px) and (min-width: 500px){
+  #flow-list {
+    text-align: center;
+  }
+  .normal-theme-info {
+    display: none;
+  }
+  .flow .row .item .title img {
+    width: 25%;
+  }
+
+  .flow .row .item .theme p {
+    font-size: 1.7rem;
+    color: #2C344B;
+    margin: 0;
+    text-align: center;
+    font-family: serif;
+  }
+
+  .flow .row .item .theme h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: .1rem;
+    margin-bottom: 10px;
+  }
+
+  .svg {
+    display: none;
+  }
+  .state_svg img{
+    width: 50%;
+    height: auto;
+  }
+
+  .flow .row .item h2 {
+    font-size: 1.8rem;
+    font-family: "游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  }
+
+  .flow .row .item p {
+    font-size: 1.1rem;
+    font-family: "游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .flow-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+ }

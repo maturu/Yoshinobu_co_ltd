@@ -1,0 +1,42 @@
+/*static navigation bar*/
+.static-nav {
+  margin-top: 30px;
+  text-align: center;
+  white-space: nowrap;
+  width: 100%;
+}
+.static-nav .nav-item {
+  display: inline-block;
+  margin: 0 20px;
+}
+.static-nav .nav-item a {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+  letter-spacing: 1.2px;
+}
+.static-nav .nav-item a:hover {
+  color: #dddddd;
+}
+
+/*top item position*/
+#theme {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+
+.top {
+  width: 100vw;
+  min-height: 100vh;
+}

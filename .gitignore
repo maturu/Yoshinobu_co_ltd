@@ -1,0 +1,11 @@
+.DS_Store
+
+/new_site/ref/
+/new_site/images/top*.jpg
+/new_site/images/works*.jpg
+/new_site/images/*.md
+
+/old_site/item/
+/old_site/images/top*.jpg
+/old_site/images/works*.jpg
+/old_site/images/*.md

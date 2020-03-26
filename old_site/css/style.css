@@ -1,0 +1,58 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  background-color: #FFF8EE;
+  color: #000;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+footer p {
+  letter-spacing: 1px;
+}
+
+/*motion navigation bar*/
+.motion-nav {
+  position: fixed;
+  white-space: nowrap;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(4, 0, 21, 0.55);
+  transition: 0.15s;
+}
+.motion-nav .nav-item {
+  display: inline-block;
+}
+.motion-nav .nav-item a {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+  letter-spacing: 1.2px;
+}
+.motion-nav .nav-item a:hover {
+  color: #dddddd;
+}
+.icon {
+  display: inline-block;
+  position: absolute;
+  left: 15px;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+}
+.title{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 25%;
+  max-width: 300px;
+  height: auto;
+}

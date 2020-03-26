@@ -1,0 +1,28 @@
+@media screen and [max-with: 480px] {
+  .nav-effect {
+    display: none;
+  }
+  .static-nav {
+    display: none;
+  }
+  .top {
+   width: 100vw;
+   min-height: 667px;
+  }
+  .vegas-timer {
+    top: 85vh !important;
+  }
+  .vegas-timer-progress {
+    background: #D4DAE7 !important;
+  }
+  #theme {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: auto;
+  }
+}

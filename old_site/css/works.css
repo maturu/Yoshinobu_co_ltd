@@ -1,0 +1,13 @@
+.works {
+  background-color: #E0DBD1;
+}
+
+.works-desc {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.works-desc img {
+  width: 16vw;
+  height: 16vw;
+}

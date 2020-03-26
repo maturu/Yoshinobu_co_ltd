@@ -1,0 +1,362 @@
+@media screen and (min-width: 1100px){
+  @keyframes LeftToRight {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animation{
+    animation-duration: 2s;
+    animation-name: LeftToRight;
+  }
+}
+
+@media screen and (min-width: 1100px){
+  .news {
+    display: flex;
+    align-items: center;
+    padding: 25px 0 25px 0;
+  }
+
+  .news h3::before{
+    content: "";
+    position: absolute;
+    border-right: 1px solid #111;
+    height: 100%;
+    top: 0;
+    right: 0;
+  }
+
+  .news h3 {
+    position: relative;
+    padding: 15px 25px 15px 0;
+    margin-right: 25px;
+  }
+
+  .news p {
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+  }
+
+  #news-info-smart {display: none;}
+}
+
+@media screen and (max-width: 1099px){
+  .news {
+    text-align: left;
+    padding: 25px 0 25px 10px;
+  }
+
+  .news h3 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+
+  .news p {
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    margin: 0;
+  }
+
+  #news-info {display: none;}
+}
+
+@media screen and (min-width: 1100px){
+  .row {
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 150px;
+  }
+
+  .row .item {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    text-align: left;
+  }
+
+  .row .item .frame {
+    position: absolute;
+    display: block;
+    width: 90%;
+    height: 380px;
+    outline: solid 1px #2C344B;
+    outline-offset: 35px;
+    margin-left: 60px;
+  }
+
+  #article {
+    display: none;
+  }
+
+  .row .item #about_image {
+    background-image: url(../images/works04.jpg);
+    right: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 115%;
+    position: absolute;
+    height: 550px;
+    top: -275px;
+    z-index: -1;
+  }
+
+  .row .item .info {
+    background-color: white;
+    padding: 20px 50px 40px 50px;
+    text-align: left;
+    height: 380px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+
+  .row .item .info img {
+    width: 30%;
+  }
+
+  .row .item .info p {
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    color: #313131;
+    margin-bottom: 20px;
+  }
+
+  .btn-wrap {
+    width: 180px;
+    max-height: 51.5px;
+    margin-top: 20px;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn {
+    border: 1px solid #2C344B;
+    color: #2C344B;
+    max-width: 180px;
+    padding: 15px 30px;
+    letter-spacing: .05rem;
+    text-align:center;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: all .25s ease;
+  }
+
+  .btn-effect {
+    width: 180px;
+    height: 51.5px;
+    left: -180px;
+    background: #2C344B;
+    position: absolute;
+    transition: all .25s ease;
+    z-index: 1;
+  }
+
+  .btn-wrap:hover .btn-effect {
+    left: 0;
+  }
+
+  .btn-wrap:hover .btn {
+    color: white;
+  }
+  
+  #middle-about-image {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 1099px) and (min-width: 500px){
+  .row {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  .bg-color {
+    background-color: white;
+  }
+
+  .row .item {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    text-align: left;
+  }
+
+  .row .item .frame {
+    display: none;
+  }
+
+  #article {
+    display: none;
+  }
+  .only-pc {
+    display: none;
+  }
+
+  .row .item #about_image {
+    display: none;
+  }
+  #middle-about-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    display: block;
+    border: 1px solid #2C344B;
+  }
+  .smart-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .row .item .info {
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .row .item .info img {
+    width: 30%;
+  }
+
+  .row .item .info p {
+    line-height: 1.8rem;
+    font-size: 1rem;
+    color: #313131;
+    margin-bottom: 20px;
+  }
+
+  .btn-wrap {
+    width: 180px;
+    max-height: 51.5px;
+    margin-top: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn {
+    border: 1px solid #2C344B;
+    color: #2C344B;
+    max-width: 180px;
+    padding: 15px 30px;
+    letter-spacing: .05rem;
+    text-align:center;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: all .25s ease;
+  }
+
+  .btn-effect {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 499px){
+  .row {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  .row .item {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    text-align: left;
+  }
+
+  .row .item .frame {
+    display: none;
+  }
+
+  #smart-about-image {
+    width: 100%;
+    height: auto;
+  }
+  .only-pc {
+    display: none;
+  }
+
+  .row .item #about_image {
+    display: none;
+  }
+
+  .row .item .info {
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+
+  .row .item .info img {
+    width: 30%;
+  }
+
+  .row .item .info p {
+    line-height: 1.8rem;
+    font-size: 1rem;
+    color: #313131;
+    margin-bottom: 20px;
+  }
+
+  .btn-wrap {
+    width: 180px;
+    max-height: 51.5px;
+    margin-top: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn {
+    border: 1px solid #2C344B;
+    color: #2C344B;
+    max-width: 180px;
+    padding: 15px 30px;
+    letter-spacing: .05rem;
+    text-align:center;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: all .25s ease;
+  }
+
+  .btn-effect {
+    display: none;
+  }
+
+  #middle-about-image {
+    display: none;
+  }
+}
